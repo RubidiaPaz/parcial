@@ -65,17 +65,16 @@ class parcial {
             }
             
             String tokenTipo9 = matcher.group(9);
-            if(tokenTipo8 != null)
+            if(tokenTipo9 != null)
             {
                 System.out.println("Extension: "+tokenTipo9);
             } 
 
             String tokenTipo10 = matcher.group(10);
-            if(tokenTipo8 != null)
+            if(tokenTipo10 != null)
             {
                 System.out.println("Punto y coma: "+tokenTipo10);
             }
-
              
         }
         
