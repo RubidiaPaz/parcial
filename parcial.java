@@ -11,7 +11,7 @@ class prueba {
         Pattern p = Pattern.compile(patron);
         Matcher matcher = p.matcher(Texto);
         
-        System.out.println("Guia 2 Compiladores");
+        System.out.println("Ejercicio1 de parcial1");
         while (matcher.find())
         {
             String tokenTipo1 = matcher.group(1);
